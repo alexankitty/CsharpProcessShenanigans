@@ -8,6 +8,7 @@ Why: LiveSplit has some frustrating issues under Linux (WINE). If you could run 
 ## FAQ (no one has asked these - frequent is a misnomor)
 
 **Q: Why not just run livesplit under WINE?**
+
 A: I'm already doing this, but the implementation is extremely clunky. Please refer to [livesplit-linux-install](https://github.com/alexankitty/livesplit-linux-install/) for implementation details. Having to run LiveSplit under every single prefix for autosplitting to work correctly is awful. This project aims to simplify the entire implementation down to just running a memory server that the main LiveSplit can send requests to. This in turn removes the requirements of the launch script to need to install gdiplus for the timer to look correct and fix the periodic stutter, and removes the need to run a global hotkey server.
 
 **Q: When will this be completed?**
