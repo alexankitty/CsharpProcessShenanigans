@@ -38,3 +38,7 @@ A: Not a question. Put in a pull request if you want to help.
 **Q: Why are you sassy?**
 
 A: Why are you not?
+
+**Q: Why is it called ConsoleApp1?**
+
+A: Proof of concept stage.
